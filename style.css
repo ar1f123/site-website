@@ -53,3 +53,11 @@ main {
     gap: 40px;
   }
 }
+
+.intro img {
+  max-width: 200px;   /* keeps photo size reasonable */
+  border-radius: 50%; /* makes it circular */
+  margin: 20px auto;
+  display: block;
+}
+
