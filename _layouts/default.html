@@ -1,33 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Arif's Portfolio</title>
-  <!-- Linking CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-
 <body>
-  <header>
-    <h1>Hi, I’m Arif 👋</h1>
-    <p>A developer passionate about building clean, functional websites and exploring creative coding projects.</p>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/resume">Resume</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
+  {% include navbar.html %}
+  <main class="container">
     {{ content }}
   </main>
-
-  <footer>
-    <p>&copy; 2025 Arif. All rights reserved.</p>
-  </footer>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
