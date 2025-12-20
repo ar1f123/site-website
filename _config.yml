@@ -1,6 +1,6 @@
 title: Arif | Portfolio
 description: Personal website showcasing projects, background, and activities
 baseurl: "/site-website"
-url: "https://ar1f123.github.io"
+url: "https://ar1f123.github.io/site-website/"
 markdown: kramdown
 theme: minima
