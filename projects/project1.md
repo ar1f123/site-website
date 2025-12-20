@@ -8,7 +8,8 @@ permalink: /projects/project1/
 
 This project is our group work that shows working of hardware.
 
-![Screenshot](/images/project1.jpg)
+![Screenshot]({{ site.baseurl }}/images/project1.jpg)
+
 
 ## Features
 -Hardware-aware responsive design
