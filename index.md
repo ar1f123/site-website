@@ -3,9 +3,6 @@ layout: default
 title: Home
 ---
 
-## About Me
+# Hey, I’m Arif
+Welcome to my portfolio. I’m learning information systems and building web projects with HTML, CSS, JavaScript, and Jekyll.
 
-![](IMG_9438.JPG)
-
-Hello, I’m Arif — a developer passionate about building clean, functional websites and exploring creative coding projects.  
-This portfolio showcases my work, skills, and journey in tech.
