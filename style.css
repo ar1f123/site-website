@@ -28,3 +28,26 @@ body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
   margin: 1rem auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.social-buttons .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  background: #333;
+  transition: transform 0.2s ease;
+}
+
+.social-buttons .btn:hover {
+  transform: scale(1.1);
+}
+
+/* Individual colors */
+.btn.email { background: #6c63ff; }
+.btn.instagram { background: #e1306c; }
+.btn.github { background: #000; }
+.btn.codecademy { background: #1f8ac0; }
+
