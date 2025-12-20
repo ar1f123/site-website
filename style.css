@@ -121,3 +121,32 @@ body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
   color: #333;
   line-height: 1.6;
 }
+
+.profile-links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.profile-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--accent);
+  transition: color 0.2s ease;
+}
+
+.profile-links a:hover {
+  color: #1d4ed8;
+}
+
+.profile-links .icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  object-fit: cover;
+}
