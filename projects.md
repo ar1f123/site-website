@@ -4,6 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-## Projects
-Project 1 and any other projects go here. We’ll add cards and screenshots next.
+# My Projects
+
+- [Project 1: How does Hardware work?](/projects/project1/)
+- [Project 2: Hour of Code](/projects/project2/)
 
