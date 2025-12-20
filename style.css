@@ -3,12 +3,14 @@
 body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
 .container { max-width: var(--max-width); margin: 0 auto; padding: 1.25rem; }
 :root {
-  --accent: #f28b82;   /* light red */
-  --background: #fff5f5; /* very soft red background */
+  --accent: #4da6ff;       /* main light blue */
+  --background: #f0f8ff;   /* very soft blue background */
+  --text: #333;            /* default text color */
 }
+
 body {
   background-color: var(--background);
-  color: #333;
+  color: var(--text);
   font-family: Arial, sans-serif;
 }
 
@@ -24,6 +26,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+
 
 
 /* Navbar */
@@ -181,9 +185,19 @@ a:hover {
 }
 
 .btn:hover {
-  background: #e57373; /* slightly darker red */
+  background: #3399ff; /* slightly darker blue */
 }
 
 .project-card {
-  border: 1px solid #f28b82;
+  border: 1px solid var(--accent);
+}
+
+.qualifications-block {
+  background: #e6f2ff; /* soft blue highlight */
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
