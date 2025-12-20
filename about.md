@@ -17,7 +17,7 @@ permalink: /about/
     <h2>Qualifications</h2>
     <p>
       I am a first-year IT student at ADA University with a strong interest in technology and systems. I am an active BCC volunteer, which has helped me develop teamwork, communication, and responsibility skills. In my free time, I actively play football and chess, activities that strengthen my discipline, strategic thinking, and problem-solving abilities. I am motivated to continuously improve my technical knowledge and practical skills in information technology.
-  </div>
+    </p>
 
   <div class="about-photo">
     <img src="{{ site.baseurl }}/images/about.jpg" alt="Arif profile photo">
