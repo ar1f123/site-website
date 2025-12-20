@@ -10,7 +10,7 @@ permalink: /projects/
   <!-- Project 1 -->
   <div class="project-card">
     <a href="/projects/project1/">
-      <img src="{{ site.baseurl }}/images/project1 jpg"alt="Project 1 screenshot">
+      <img src="{{ site.baseurl }}/images/project1.jpg"alt="Project 1 screenshot">
       <h3>Project 1: How does Hardware Work?</h3>
       <p>This project shows how core hardware components interact to process data and run software efficiently.</p>
     </a>
