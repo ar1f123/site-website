@@ -1,6 +1,6 @@
 title: Arif | Portfolio
 description: Personal website showcasing projects, background, and activities
-baseurl: "" # set to repo name if using project pages, e.g., "/arif-portfolio"
+baseurl: "/site-website"
 url: "https://ar1f123.github.io"
 markdown: kramdown
-theme: none
+theme: minima
