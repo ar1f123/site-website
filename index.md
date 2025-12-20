@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Hey, I’m Arif
+# Hey, I’m Arif Badalov
 
 ![Profile photo]({{ "/images/profile.jpg" | relative_url }}){: .profile-photo }
 
