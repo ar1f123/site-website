@@ -47,7 +47,7 @@ body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
 
 /* Individual colors */
 .btn.email { background: #6c63ff; }
-.btn.instagram { background: #e1306c; }
+
 .btn.github { background: #000; }
 .btn.codecademy { background: #1f8ac0; }
 
