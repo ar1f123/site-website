@@ -12,7 +12,7 @@ permalink: /projects/
     <a href="/projects/project1/">
       <img src="/images/project1.jpg" alt="Project 1 screenshot">
       <h3>Project 1: How does Hardware Work?</h3>
-      <p>Built with Teammates.</p>
+      <p>This project shows how core hardware components interact to process data and run software efficiently.</p>
     </a>
   </div>
 
