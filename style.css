@@ -94,3 +94,19 @@ body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
   margin: 0 0.75rem 1rem;
   color: #555;
 }
+
+.about-photo {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+
+.about-photo img {
+  width: 100%;
+  max-width: 220px;     /* controls size */
+  height: auto;
+  display: inline-block;
+  border-radius: 12px;  /* default: rounded rectangle */
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  object-fit: cover;    /* keeps crop clean if you set a fixed height */
+}
