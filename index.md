@@ -8,4 +8,4 @@ title: Home
 ![Profile photo]({{ "/images/profile.jpg" | relative_url }}){: .profile-photo }
 
 
-Welcome to my portfolio. I’m learning information systems and building web projects with HTML, CSS, JavaScript, and Jekyll.
+Welcome to my portfolio. I’m a first-year IT student at ADA University, interested in technology, hardware, and information systems.
