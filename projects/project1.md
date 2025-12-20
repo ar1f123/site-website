@@ -8,7 +8,7 @@ permalink: /projects/project1/
 
 This project is my personal portfolio built with Jekyll, CSS, and JavaScript.
 
-![Screenshot](/assets/images/project1.png)
+![Screenshot](/images/project1.jpg)
 
 ## Features
 - Responsive design
