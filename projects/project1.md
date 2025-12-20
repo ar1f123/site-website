@@ -11,6 +11,7 @@ This project is my personal portfolio built with Jekyll, CSS, and JavaScript.
 ![Screenshot](/images/project1.jpg)
 
 ## Features
-- Responsive design
-- Navigation bar + footer
-- Social profile buttons
+-Hardware-aware responsive design
+-Hardware component navigation bar
+-System interface footer
+-Input/output communication buttons
