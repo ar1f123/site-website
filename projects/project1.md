@@ -4,7 +4,7 @@ title: Project 1
 permalink: /projects/project1/
 ---
 
-# Project 1: Portfolio Website
+# Project 1: How does Hardware Work?
 
 This project is our group work that shows working of hardware.
 
