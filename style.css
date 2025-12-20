@@ -29,25 +29,33 @@ body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.6; }
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
 .social-buttons .btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
   color: #fff;
-  background: #333;
-  transition: transform 0.2s ease;
+  font-size: 1.2rem;
+  transition: transform 0.2s ease, background 0.3s ease;
 }
+
+/* Colors */
+.btn.email { background: #6c63ff; }
+.btn.github { background: #000; }
+.btn.codecademy { background: #1f8ac0; }
 
 .social-buttons .btn:hover {
   transform: scale(1.1);
+  opacity: 0.9;
 }
 
-/* Individual colors */
-.btn.email { background: #6c63ff; }
-
-.btn.github { background: #000; }
-.btn.codecademy { background: #1f8ac0; }
 
