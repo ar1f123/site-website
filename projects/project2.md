@@ -8,7 +8,7 @@ permalink: /projects/project2/
 
 Description of your Hour of Code project.
 
-![Screenshot](/images/project2.jpg)
+![Screenshot]({{ site.baseurl }}/images/project2.jpg)
 
 ## What I Learned
 - Basics of programming logic
